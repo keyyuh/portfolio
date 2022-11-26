@@ -1,0 +1,89 @@
+:root {
+  --main-color: #6c63ff;
+  --paragraph-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 150px;
+}
+h1 {
+  font-size: 96px !important;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 24px;
+  opacity: 0.7;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  justify-content: center;
+}
+a {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.contact {
+  text-decoration: none;
+  margin: 10px;
+  background-color: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.contact:hover {
+  color: white;
+  text-decoration: underline;
+}
+.about-me {
+  text-decoration: none;
+  margin: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--main-color);
+}
+.about-me:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.about-paragraph {
+  margin: 30px;
+}
+#contact-heading {
+  font-size: 48px;
+  margin-top: 50px;
+}
+.email {
+  display: block;
+  margin-top: 5px;
+  font-size: 28px;
+  color: var(--main-color);
+}
+.email:hover {
+  text-decoration: underline;
+}
