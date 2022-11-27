@@ -1,12 +1,14 @@
 :root {
-  --main-color: #6c63ff;
+  --main-color: #ffffff;
   --paragraph-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-color: rgb(230, 201, 206);
 }
 .container {
   padding-bottom: 50px;
 }
 body {
+  background-color: rgb(197, 179, 179) !important;
   font-family: Arial, Helvetica, sans-serif;
   padding-top: 150px;
 }
@@ -25,48 +27,20 @@ h2,
 h3 {
   margin: 0;
 }
-.primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--main-color);
-  box-shadow: var(--box-shadow);
+.introduction {
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: medium;
+}
+.social-links {
+  padding-top: 17%;
+  color: black;
+}
+.social-links:hover {
   color: white;
 }
-.links {
-  display: flex;
-  margin-top: 40px;
-  margin-bottom: 60px;
-  justify-content: center;
-}
-a {
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-}
-.contact {
-  text-decoration: none;
-  margin: 10px;
-  background-color: var(--main-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
-.contact:hover {
-  color: white;
-  text-decoration: underline;
-}
-.about-me {
-  text-decoration: none;
-  margin: 10px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: var(--main-color);
-}
-.about-me:hover {
-  text-decoration: underline;
-}
-
 p {
   margin-top: 20px;
   text-align: center;
