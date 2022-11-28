@@ -28,7 +28,7 @@
 body {
   background-color: rgb(197, 179, 179) !important;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 130px;
+  padding-top: 80px;
 }
 h2 {
   font-size: 48px;
@@ -60,6 +60,21 @@ p {
 .about-me-paragraph {
   display: block;
   padding-top: 30px;
+}
+.weatherapp {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 350px;
+}
+.landingpage {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 350px;
+  height: 194.58px !important;
 }
 @media (max-width: 400px) {
   h1,
