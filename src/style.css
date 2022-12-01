@@ -3,12 +3,17 @@
   --paragraph-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --text-color: rgb(230, 201, 206);
+  --main-font: "Quicksand", sans-serif;
 }
 .container {
   padding-bottom: 50px;
 }
+.hero {
+  padding-top: 150px;
+}
 .hero h1 {
   font-size: 96px;
+  font-family: "Pacifico", cursive;
 }
 .hero h2 {
   font-size: 48px;
@@ -27,8 +32,7 @@
 }
 body {
   background-color: rgb(197, 179, 179) !important;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 80px;
+  font-family: var(--main-font);
 }
 h2 {
   font-size: 48px;
@@ -38,10 +42,14 @@ h2,
 h3 {
   margin: 0;
 }
+h2,
+h3 {
+  font-family: "Quicksand", sans-serif;
+}
 .introduction {
   padding-top: 40px;
   text-align: center;
-  font-size: medium;
+  font-size: 60px;
 }
 .social-links {
   padding-bottom: 20px;
@@ -85,4 +93,25 @@ p {
   h3 {
     font-size: 28px !important;
   }
+  .introduction {
+    font-size: 48px;
+  }
+  .my-picture {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+.about-me {
+  padding-top: 80px;
+}
+.my-picture {
+  border-radius: 10px;
+  box-shadow: 4px 3px 2px rgba(73, 73, 73, 0.527);
+}
+.about-h3 {
+  margin-top: 30px;
+}
+.about-me-heading {
+  font-size: 48px;
+  font-family: "Pacifico", cursive;
 }
