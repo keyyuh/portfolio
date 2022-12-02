@@ -13,6 +13,8 @@
 }
 .hero h1 {
   font-size: 96px;
+}
+h1 {
   font-family: "Pacifico", cursive;
 }
 .hero h2 {
@@ -31,7 +33,7 @@
   margin: 0 auto;
 }
 body {
-  background-color: rgb(197, 179, 179) !important;
+  background-color: rgb(141, 173, 194) !important;
   font-family: var(--main-font);
 }
 h2 {
@@ -52,7 +54,7 @@ h3 {
   font-size: 60px;
 }
 .social-links {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   color: black;
 }
 .social-links:hover {
@@ -74,15 +76,16 @@ p {
   margin: 0 auto;
   margin-top: 40px;
   border-radius: 10px;
-  width: 350px;
+  width: 650px;
+  height: 350px;
 }
 .landingpage {
   display: block;
   margin: 0 auto;
   margin-top: 40px;
   border-radius: 10px;
-  width: 350px;
-  height: 194.58px !important;
+  width: 650px;
+  height: 350px;
 }
 @media (max-width: 400px) {
   h1,
@@ -101,17 +104,22 @@ p {
     margin-bottom: 20px;
   }
 }
-.about-me {
+.content {
   padding-top: 80px;
+  padding-bottom: 60px;
 }
 .my-picture {
   border-radius: 10px;
   box-shadow: 4px 3px 2px rgba(73, 73, 73, 0.527);
 }
-.about-h3 {
+.heading {
   margin-top: 30px;
 }
 .about-me-heading {
+  font-size: 48px;
+  font-family: "Pacifico", cursive;
+}
+.projects-heading {
   font-size: 48px;
   font-family: "Pacifico", cursive;
 }
