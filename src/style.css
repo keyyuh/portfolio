@@ -6,6 +6,9 @@
   --main-font: "Quicksand", sans-serif;
   --secondary-font: "Pacifico", cursive;
 }
+.navbar-brand {
+  font-family: var(--secondary-font);
+}
 .container {
   padding-bottom: 50px;
 }
@@ -13,6 +16,7 @@
   padding-top: 150px;
 }
 .hero h1 {
+  font-family: var(--secondary-font);
   font-size: 96px;
 }
 .hero h2 {
