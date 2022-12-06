@@ -91,16 +91,14 @@ p {
 }
 .project {
   display: block;
+  width: 80%;
+  object-fit: cover;
   margin: 0 auto;
   margin-top: 40px;
   border-radius: 10px;
-  width: 600px;
   box-shadow: 4px 3px 2px rgba(73, 73, 73, 0.527);
 }
-.landingpage {
-  height: 333px !important;
-}
-@media (max-width: 400px) {
+@media (max-width: 768px) {
   h1,
   h2 {
     font-size: 40px !important;
